@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #537783;
+  grid-column: 2/3;
+  margin: 3% auto;
+  border-bottom: 2px solid azure;
+  font-size: 50px;
+}
+
+h2 {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 70%;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: azure;
+  padding: 20px;
+  padding-bottom: 5%;
+  text-align: center;
+  color: burlywood;
+  letter-spacing: 16px;
+  font-style: italic;
+  border: 2px solid #537783;
+}
+
+.resume-title {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.individual-resume-links {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+#web-resume {
+  height: 12em;
+}
+#PT-resume {
+  height: 12em;
+}
+#farm-resume {
+  height: 12em;
+}
+#dance-resume {
+  height: 12em;
+}
+.back-home {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
