@@ -52,6 +52,7 @@ h2 {
 }
 #dance-resume {
   height: 12em;
+  background-image: url(/images/leahDancePic.jpg);
 }
 .back-home {
   display: flex;
