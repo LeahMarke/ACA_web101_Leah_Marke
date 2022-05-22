@@ -1,7 +1,7 @@
-// const placeForResults = document.getElementById("results")
+const placeForResults = document.getElementById("results");
 
-// new URLSearchParams(window.location.search).forEach((value, name)) => {
-//   placeForResults.append(`${name} : ${value}`)
-//   placeForResults.append(document.createElement("br"))
-// }
-// Array.from(document.querySelectorAll('#contact_form input')).reduce((acc, input)) => ({ ...acc,[input.id]: input.value }), {});
+new URLSearchParams(window.location.search).forEach((value, name) => {
+  console.log(new URLSearchParams(window.location.search));
+  placeForResults.append(`${name} : ${value}`);
+  placeForResults.append(document.createElement("br"));
+});

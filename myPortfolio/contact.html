@@ -32,66 +32,61 @@
         <!-- how to link my email? -->
         <form
           action="./results.html"
-          target="_blank"
-          method="GET"
+          method="get"
           enctype="multipart/form-data"
           id="contact_form"
         >
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br />
+          <input type="email" id="email" name="Email" required /><br />
 
           <textarea
-            name="comments"
+            name="Comments"
             minlength="20"
             maxlength="500"
             placeholder='Comments, concerns, or just to say "Hi!"'
+            id="comments"
           ></textarea>
 
           <p>~How did you hear about me?~</p>
           <input
             type="checkbox"
             id="classmate"
-            name="classmate"
+            name="Classmate"
             value="classmate"
           />
           <label for="classmate">Classmate</label><br />
           <input
             type="checkbox"
             id="resume"
-            name="resume"
+            name="Resume"
             value="resume_submission"
           />
           <label for="resume">Resume Submission</label><br />
           <input
             type="checkbox"
             id="linkedIn"
-            name="linkedIn"
+            name="LinkedIn"
             value="linkedIn"
           />
           <label for="linkedIn">LinkedIn</label><br />
           <input
             type="checkbox"
             id="recommendation"
-            name="recommendation"
+            name="Recommendation"
             value="recommendation"
           />
           <label for="recommendation">Coding Academy Recommendation</label
           ><br />
 
           <p>~Would you like to be contacted?~</p>
-          <input
-            type="radio"
-            id="yes"
-            name="wants_to_be_contacted"
-            value="Yes"
-          />
+          <input type="radio" id="yes" name="ContactMe" value="Yes" />
           <label for="yes">Yes</label>
-          <input type="radio" id="no" name="wants_to_be_contacted" value="no" />
+          <input type="radio" id="no" name="ContactMe" value="no" />
           <label for="no">No</label><br />
 
           <p>~Enter your Birthday and get a special wish!~</p>
           <label for="birthday">Birthday:</label>
-          <input type="date" id="birthday" name="birthday" /><br />
+          <input type="date" id="birthday" name="Birthday" /><br />
 
           <p>~Thanks so much!~</p>
           <button type="reset" id="reset">Reset</button>
