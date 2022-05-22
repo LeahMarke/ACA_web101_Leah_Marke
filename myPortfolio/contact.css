@@ -83,7 +83,7 @@ textarea {
   }
   #email {
     height: 30px;
-    width: 360px;
+    width: 432px;
   }
   textarea {
     width: 500px;
@@ -97,5 +97,42 @@ textarea {
     font-size: 18px;
   }
 }
+/* start desktop responsive display */
 @media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  form {
+    font-size: 24px;
+  }
+  #submit {
+    font-size: 22px;
+  }
+  #email {
+    width: 728px;
+  }
+  textarea {
+    width: 800px;
+    font-size: 18px;
+  }
+  #birthday {
+    font-size: 20px;
+  }
+  .has-border {
+    font-size: 20px;
+  }
+  form {
+    padding: 0 20px 20px 20px;
+    line-height: 2;
+  }
+  .small-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  textarea {
+    margin-top: 25px;
+  }
+  nav > a {
+    margin: 0 10px;
+  }
 }
