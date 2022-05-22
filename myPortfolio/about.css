@@ -3,42 +3,198 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* starting with mobile display */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(./images/backgroundImage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; */
 }
-.whole_page {
-  height: 100vh;
-}
+
 nav > a {
-  /* margin: 2% 1% 3%;
-  height: 10%;
-  width: 15%; */
   color: rgb(218, 180, 154);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   border-radius: 25px;
   text-align: center;
+  padding: 5px 5px;
 }
-
+/* .whole_page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+} */
 .has-border {
   border-radius: 25px;
   border: 2px solid #537783;
   background: none;
-  padding: 10px;
+  /* padding: 10px; */
 }
 nav {
+  font-size: 14px;
   width: 100%;
+  text-align: center;
+  padding: 15px 0;
 }
 h1 {
   color: #537783;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 250px;
+  height: 285px;
+  /* max-width: 300px;
+  max-height: 320px; */
+  /* height: auto; */
+  border-radius: 25px;
+}
+/* #headshot {
+  width: 335px;
+} */
+p {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 15px;
+  line-height: 1.2;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 275px;
+  width: 295px;
+  position: relative;
+  margin: auto;
+}
 
-  font-size: 50px;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.small-text {
+  font-size: 14px;
+  padding: 10px 20px;
+  text-align: center;
+}
+/* start tablet display */
 @media (min-width: 576px) {
+  h1 {
+    font-size: 38px;
+  }
+  .has-border {
+    font-size: 18px;
+  }
+  .small-text {
+    padding: 0 20px;
+    text-align: center;
+  }
 }
+/* start desktop responsive display */
 @media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+  .has-border {
+    font-size: 20px;
+  }
+  .small-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  nav > a {
+    margin: 0 10px;
+  }
 }

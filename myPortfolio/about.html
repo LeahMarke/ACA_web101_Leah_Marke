@@ -8,42 +8,88 @@
     <title>About Me</title>
   </head>
   <body>
-
-    <!-- copied -->
-    <body>
-      <div class="whole_page">
-      <header>
-        
-        <nav>
-          <a class="has-border" href="resume.html">Resume</a>
-          <a class="has-border" href="about.html">About Me</a>
-          <a class="has-border" href="https://medium.com/@lmarke" target="_blank"
-            >My Blog</a
-          >
-          <a class="has-border" href="contact.html">Contact Me</a>
-        </nav>
-      </header>
-      <main>
-        <!-- <img src="./myProfilePic.jpg" id="profile-pic" alt="Head shot of Me" /> -->
-  
-        <!-- <div class="introduction"> -->
-       
-    <!-- copied -->
-    
-
+    <!-- <div class="whole_page"> -->
+    <header>
+      <nav>
+        <a class="has-border" href="resume.html">Resume</a>
+        <a class="has-border" href="about.html">About Me</a>
+        <a class="has-border" href="https://medium.com/@lmarke" target="_blank"
+          >My Blog</a
+        >
+        <a class="has-border" href="contact.html">Contact Me</a>
+      </nav>
+    </header>
     <h1>All About Me</h1>
-    <p>
-      Hey there! My name is Leah Marke. I'm a Sister, a Daughter, an Aunt, a
-      Dancer, an Artist, a Physical Therapist, a Farmer, and a future Web
-      Developer. But most of all, I'm a creative. I care deeply about nature and
-      the environment and I want to live a life as close to nature as I can. I
-      want to improve myself in ways that lead towards health and happiness
-      while fully using my talents and expressing my passions.
-    </p>
-    <a class="small-text" href="https://austincodingacademy.com/"
-    >© Austin Coding Academy</a
-    >
-  </main>
-</div>
+      <main>
+        
+        <p>
+          Hey there! I'm Leah Marke...a Sister, a Daughter, an Aunt, a
+          Dancer, an Artist, a Physical Therapist, a Farmer, and a future Web
+          Developer. But most of all, I'm a Creative. </p>
+          
+        </p>
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="leahSmilingFeet.jpg" style="width:100%" id="headshot">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="cactusWall.jpeg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="leahWithKatherine.JPG" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="carrots.JPG" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="hangingHerbs.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="leahWithCilantro.JPG" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="dancingOnTree.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+        
+        <p>I care deeply about nature, the environment, and living as naturally as I can. I strive to be healthy and happy, all while using my talents, expressing my passions, and enjoying life. </p>
+        
+        <a class="small-text" href="https://austincodingacademy.com/"
+          >© Austin Coding Academy</a
+        >
+      </main>
+    <!-- </div> -->
+    <script src="about.js"></script>
   </body>
 </html>
