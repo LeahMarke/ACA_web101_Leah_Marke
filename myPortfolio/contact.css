@@ -67,8 +67,13 @@ textarea {
   font-size: 16px;
   letter-spacing: 2px;
 }
+#reset {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
 .small-text {
   padding: 0 20px;
+  text-align: center;
 }
 /* start tablet display */
 @media (min-width: 576px) {
@@ -79,6 +84,9 @@ textarea {
     font-size: 22px;
   }
   #submit {
+    font-size: 20px;
+  }
+  #reset {
     font-size: 20px;
   }
   #email {
@@ -96,6 +104,10 @@ textarea {
   .has-border {
     font-size: 18px;
   }
+  .small-text {
+    padding: 0 20px;
+    text-align: center;
+  }
 }
 /* start desktop responsive display */
 @media (min-width: 992px) {
@@ -106,6 +118,9 @@ textarea {
     font-size: 24px;
   }
   #submit {
+    font-size: 22px;
+  }
+  #reset {
     font-size: 22px;
   }
   #email {

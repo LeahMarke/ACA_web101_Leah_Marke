@@ -30,7 +30,13 @@
       <h1>Thanks so much for visiting my site. I'd love to hear from you!</h1>
       <main>
         <!-- how to link my email? -->
-        <form action="./results.html" target="_blank" method="post">
+        <form
+          action="./results.html"
+          target="_blank"
+          method="GET"
+          enctype="multipart/form-data"
+          id="contact_form"
+        >
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required /><br />
 
@@ -88,7 +94,8 @@
           <input type="date" id="birthday" name="birthday" /><br />
 
           <p>~Thanks so much!~</p>
-          <input type="submit" value="Submit" id="submit" />
+          <button type="reset" id="reset">Reset</button>
+          <button type="submit" id="submit">Submit</button>
         </form>
 
         <!-- copied from main page -->
@@ -97,5 +104,6 @@
         >
       </main>
     </div>
+    <script src="contact.js"></script>
   </body>
 </html>
