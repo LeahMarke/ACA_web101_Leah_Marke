@@ -124,32 +124,3 @@ button {
   font-style: italic;
   border: 2px solid #537783;
 }
-
-/* CSS for Resume Page  */
-/* .resume-title {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-}
-.individual-resume-links {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-}
-#web-resume {
-  height: 12em;
-}
-#PT-resume {
-  height: 12em;
-}
-#farm-resume {
-  height: 12em;
-}
-#dance-resume {
-  height: 12em;
-}
-.back-home {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-} */
