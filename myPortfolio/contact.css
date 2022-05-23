@@ -91,11 +91,17 @@ textarea {
 @media (min-width: 576px) {
   h1 {
     font-size: 38px;
+    padding: 0 30px;
   }
   form {
     font-size: 22px;
   }
-
+  #firstName {
+    width: 380px;
+  }
+  #lastName {
+    width: 380px;
+  }
   #submit {
     font-size: 20px;
   }
@@ -118,7 +124,7 @@ textarea {
     font-size: 18px;
   }
   .small-text {
-    padding: 0 20px;
+    padding: 30px 0 8px 0;
     text-align: center;
   }
 }
@@ -131,12 +137,10 @@ textarea {
     font-size: 24px;
   }
   #firstName {
-    height: 25px;
-    width: 250px;
+    width: 673px;
   }
   #lastName {
-    height: 25px;
-    width: 285px;
+    width: 673px;
   }
   #submit {
     font-size: 22px;
