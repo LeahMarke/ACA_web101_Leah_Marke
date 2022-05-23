@@ -75,6 +75,9 @@ textarea {
 .small-text {
   padding: 0 20px;
   text-align: center;
+  color: #537783;
+  background-color: rgb(218, 180, 154);
+  border-radius: 20px;
 }
 #firstName {
   width: 248px;

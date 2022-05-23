@@ -102,9 +102,13 @@ h2 {
 
 .small-text {
   grid-column: 2/3;
-  color: white;
-  font-size: 10px;
+  /* color: white; */
+
   margin: 3% auto;
+  font-size: 18px;
+  color: #537783;
+  background-color: rgb(218, 180, 154);
+  border-radius: 20px;
 }
 
 button {
