@@ -30,12 +30,22 @@
       <h1>Thanks so much for visiting my site. I'd love to hear from you!</h1>
       <main>
         <!-- how to link my email? -->
+
         <form
           action="./results.html"
           method="get"
           enctype="multipart/form-data"
           id="contact_form"
         >
+          <span>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="FirstName"
+          /></span>
+          <span
+            ><label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="LastName" /><br
+          /></span>
+
           <label for="email">Email:</label>
           <input type="email" id="email" name="Email" required /><br />
 
