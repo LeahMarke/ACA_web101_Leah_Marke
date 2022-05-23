@@ -10,10 +10,6 @@ body {
   background-image: url(./images/backgroundImage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
 }
 
 nav > a {
@@ -24,14 +20,7 @@ nav > a {
   text-align: center;
   padding: 5px 5px;
 }
-/* .whole_page {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-} */
+
 .has-border {
   border-radius: 25px;
   border: 2px solid #537783;
@@ -190,8 +179,9 @@ p {
     border-radius: 25px;
   }
   .small-text {
-    padding: 100px 0 10px 0;
+    padding: 60px 0 10px 0;
     text-align: center;
+    font-size: 20px;
   }
   p {
     font-size: 26px;
@@ -200,17 +190,84 @@ p {
 }
 /* start desktop responsive display */
 @media (min-width: 992px) {
-  h1 {
-    font-size: 40px;
-  }
-  .has-border {
-    font-size: 20px;
-  }
-  .small-text {
-    font-size: 18px;
-    text-align: center;
-  }
   nav > a {
     margin: 0 10px;
+  }
+  nav {
+    padding: 30px 0;
+  }
+  h1 {
+    font-size: 45px;
+    padding: 40px 50px 60px 50px;
+  }
+  .has-border {
+    font-size: 22px;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    height: 430px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+  }
+  img {
+    width: 250px;
+    height: 425px;
+    border-radius: 25px;
+  }
+  #headshot {
+    height: 400px;
+    width: 400px;
+  }
+  .small-text {
+    padding: 60px 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  p {
+    font-size: 26px;
+    padding: 30px 100px 10px 100px;
+  }
+}
+/* for extra large display screen */
+@media (min-width: 1200px) {
+  nav > a {
+    margin: 0 10px;
+  }
+  nav {
+    padding: 30px 0;
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 56px;
+    padding: 40px 50px 60px 50px;
+  }
+  .has-border {
+    font-size: 22px;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    height: 430px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+  }
+  img {
+    width: 250px;
+    height: 425px;
+    border-radius: 25px;
+  }
+  #headshot {
+    height: 400px;
+    width: 400px;
+  }
+  .small-text {
+    padding: 40px 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  p {
+    font-size: 26px;
+    padding: 30px 100px 10px 100px;
   }
 }
